@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+    <link rel="stylesheet" href="./scr/style/reset.css">
+    <link rel="stylesheet" href="./scr/style/index.css">
+    <title>AnimalSave</title>
+</head>
+<body class="fundoCor">
+    <div class="fundoImgIndex">
+        <img src="./scr/imgs/cachorro e gato.webp" alt="Cachorro e gato">
+    </div>
+    <div class="moldaLogin" id="moldaLoginID">
+        <div class="login">
+            <div>
+                <h1>Login:</h1>
+                <p onclick="abrirMenu()">X</p>
+            </div>
+            <p class="label">Usuário:</p>
+            <input class="input" type="text" placeholder="Nome do Usuário">
+            <p class="label">Senha:</p>
+            <input class="input" type="password" placeholder="Senha">
+            <p class="botaoLogar" onclick="login(`logado`)">Logar</p>
+            <p class="decoraText">Não possui uma conta?</p>
+            <a class="decoraText" href="./scr/pages/cadastro.html">Cadastre-se</a>
+        </div>
+    </div>
+    <nav class="menuIndex">
+        <img src="./scr/imgs/Rectangle 4.png" alt="Logo AnimalSave Laranjado">
+        <div class="opcaoNav">
+            <p><a href="#sobreID">Sobre</a></p>
+            <div class="traço"></div>
+            <p><a href="">Transparência</a></p>
+            <div class="traço"></div>
+            <p><a href="">Legislação</a></p>
+        </div>
+        <div class="botoesLogin">
+            <p onclick="abrirMenu()">Login</p>
+            <a href="./scr/pages/cadastro.html">Cadastro</a>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="div1">
+            <p>Na dúvida, ajude, na</p>
+            <div class="div2">
+                <p>certeza,</p>
+                <p class="adote">adote !</p>
+            </div>
+        </div>
+        <div class="botoes">
+            <p onclick="abrirMenu()">Login</p>
+            <a href="./scr/pages/cadastro.html">Cadastre-se</a>
+        </div>
+    </main>
+    <div class="sobre" id="sobreID">
+        <div>
+            <h2>Entenda nossa Missão</h2>
+            <p>Este projeto é uma plataforma online para auxiliar organizacionalmente e economicamente ONGs de animais, sendo um site de acesso livre para todos que quiserem contribuir.
+            </p>
+            <p>
+                Nossos serviços incluem: doações destinadas a ONGs, vídeos de auxílio para cuidados de animais, adoções, coordenação e divulgação de eventos, auxílio aos cuidadores e sistema de vendas de rifas. Também haverá informações referente à transparência econômica e legislação.
+            </p>
+            <p>
+                Temos como missão diminuir ao máximo o número de animais de estimação abandonados nas ruas de Foz do Iguaçu, auxiliando pessoas e organizações que acolhem animais.
+            </p>
+        </div>
+        <a href="">Click e veja mais sobre o nosso trabalho</a>
+    </div>
+    <footer class="footer">
+        <div>
+            <h3>Sobre Nós</h3>
+            <a href="">Sobre</a>
+            <a href="">Transparencia</a>
+            <a href="">Legistação</a>
+        </div>
+        <div>
+            <h3>ajude!</h3>
+            <a href="">planos de doação</a>
+            <a href="">PetTinder</a>
+            <a href="">Parcerias</a>
+        </div>
+        <div>
+            <h3>Pra você</h3>
+            <a href="">Eventos</a>
+            <a href="">PetFlix</a>
+        </div>
+    </footer>
+    <script src="./scr/script/index.js"></script>
+</body>
+</html>

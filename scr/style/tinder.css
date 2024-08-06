@@ -1,0 +1,184 @@
+/* headerPet*/
+#bodyPetID{
+    background-color: rgba(244, 229, 203, 1);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;700&family=Freehand&family=Quicksand:wght@300;400;500;700&family=Roboto:wght@300;400;500&display=swap');
+
+/* sectionPet*/
+
+
+.mainPetTinder{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.classEsquerda{
+    display: flex;
+    width: 23%;
+    flex-direction: column;
+    font-family: 'Fredoka', sans-serif;
+    padding-top: 25px;
+}
+
+.classEsquerda h1{
+    color: #001535;
+    font-size: 40px;
+    padding-left: 60%;
+}
+
+.classEsquerda h2{
+    color: #002D4C;
+    font-size: 30px;
+    padding-left: 60%;
+}
+
+.imgPet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgPet img{
+    margin-top: 5%;
+    width: 350px;
+    height: auto;
+}
+
+.divBotoes{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 55px;
+    margin-top: 5px;
+    margin-bottom: 100px;
+}
+
+.divBotoes img{
+    width: 90px;
+    height: 90px;
+}
+
+.espacioCach{
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.espacioCach img{
+    width: 350px;
+    height: 350px;
+}
+
+.titulo{
+    color: #002D4C;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 23px;
+}
+
+.tituloDatos{
+    font-weight: bold;
+}
+
+
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1cm;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#sexoID{
+    display: flex;
+}
+
+.espacioDados{
+    padding-left: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 23px;
+}
+
+.descripcion li{
+    padding: 10px;
+    padding-left: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+#bienID{
+    color:#002D4C;
+    margin-right: 50px;
+    font-size: 25px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.nuevoPet{
+    display: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#main2{
+    display: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main2class{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#imagenesMain2{
+    display: flex;
+}
+
+.nombrePerro2{
+    color: #001535;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 25px;
+    margin-top: 25px;
+    padding-right: 5px;
+}
+
+.titulo2{
+    color: #002D4C;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 23px;
+
+}
+
+.cachorroAdoçao2{
+    padding-top: 20px;
+    align-items: center;
+    width: 220px;
+    height: 325px;
+}
+
+.divBotoes2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 55px;
+    margin-top: 5px;
+}
+
+.descripcion2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1cm;
+}
+
+.tituloDatos2{
+    font-weight: bold;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.espacioDados2{
+    padding-left: 5px;
+    font-family: 'Quicksand', sans-serif;
+}
